@@ -1,0 +1,59 @@
+body{
+  background-color: #0e0e10;
+  color: white;
+}
+.App h1, h3{
+  text-align: center;
+  color: #9147ff;
+  margin: 10px;
+}
+
+.App > button {
+  margin: 5em 0 2em 6em;
+}
+
+#todoListe {
+  display: flex;
+}
+
+.todolist-items li{
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+.todolist-items ul {
+  padding: 0;
+}
+
+.TodoApp {
+  width: 300px;
+  border: thin solid grey;
+  border-radius: 5px;
+  margin-left: 5em;
+  padding: 5px;
+  background-color: #1f1f23;
+}
+
+.TodoApp hr {
+  color: #e6e6e6;
+  border-bottom: 1px;
+}
+
+.TodoApp form {
+  text-align: center;
+}
+
+.TodoApp input {
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 1px solid #1f1f23;
+}
+
+button {
+  background-color: #9147ff;
+  border-radius: 5px;
+  border: 1px solid #9147ff;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
